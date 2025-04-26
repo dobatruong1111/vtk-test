@@ -193,5 +193,5 @@ def showVolume(dirpath: str) -> None:
     renderWindowInteractor.Start()
 
 if __name__ == "__main__":
-    dirpath = "/home/dbtruong/workingspace/dicom/220277460 Nguyen Thanh Dat"
+    dirpath = "./data/220277460 Nguyen Thanh Dat"
     showVolume(dirpath)

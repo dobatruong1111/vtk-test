@@ -89,5 +89,5 @@ def main(path: str) -> None:
     renderWindowInteractor.Start()
 
 if __name__ == "__main__":
-    path = "/home/dbtruong/workingspace/dicom/220277460 Nguyen Thanh Dat"
+    path = "./data/220277460 Nguyen Thanh Dat"
     main(path)

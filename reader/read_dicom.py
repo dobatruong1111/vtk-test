@@ -41,7 +41,7 @@ def to_rgb_points(colormap):
     return rgb_points
 
 def main() -> None:
-    path = "/home/dbtruong/workingspace/dicom/220277460 Nguyen Thanh Dat"
+    path = "./data/220277460 Nguyen Thanh Dat"
 
     rgb_points = to_rgb_points(STANDARD)
     colors = vtk.vtkNamedColors()

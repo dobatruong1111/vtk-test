@@ -348,7 +348,7 @@ def convertFromDisplayCoords2WorldCoords(point: Tuple, focalPoint: Tuple, render
     return pickPosition
 
 if __name__ == "__main__":
-    path = "/home/dbtruong/workingspace/dicom/220277460 Nguyen Thanh Dat"
+    path = "./data/220277460 Nguyen Thanh Dat"
     # do chieu dai
     # distance_widget(path)
     # do goc
